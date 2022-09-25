@@ -3,8 +3,8 @@ import {NavigationContainer } from "@react-navigation/native";
 import {createStackNavigator } from "@react-navigation/stack";
 import UserList from "./views/UserList";
 import UserForm from "./views/UserForm";
-import { Button } from "react-native-elements";
-import {Icon}
+import { Button, Icon } from "react-native-elements";
+// import {Icon}
 
 
 const Stack = createStackNavigator()
@@ -24,7 +24,7 @@ export default props =>{
                     headerRight: () =>(
                         <Button
                         onPress={() => navigation.navigate("UserForm")}
-                        type="clear" icon={<Icon name="add-alarm" size={25} color="white" />}
+                        type="clear" icon={<Icon name="add" size={25} color="white" />}
 
                         />
                     )
