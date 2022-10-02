@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import {Text, View } from "react-native";
+import {Text, View, StyleSheet } from "react-native";
 import { Button } from "react-native-elements";
 import { TextInput } from "react-native-gesture-handler";
 
 
 export default ({route, navigation}) =>{
 
+
+    
     const [user, setUser]=useState(route.params? route.params:{})
     
     return(
@@ -54,14 +56,14 @@ export default ({route, navigation}) =>{
 const style = StyleSheet.create({
     
     form:{
-    padding: 12
+    padding: 12,
     },
     input:{
         height:40,
         borderColor:'gray',
         borderWidth: 1,
         marginBottom:15,
-    }
+    },
 
 
 })
