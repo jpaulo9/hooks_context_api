@@ -4,7 +4,7 @@ export default [
         id: 1,
         nome:'Soltek Mihl',
         email: 'soltek33@gmail.com',
-        avatarUrl:'https://cdn.pixabay.com/photo/2016/08/21/16/31/emoticon-1610228__340.png'
+        avatarUrl:'https://cdn.pixabay.com/photo/2017/06/21/21/23/smile-2428619__340.jpg'
 
     },
     {
@@ -26,6 +26,6 @@ export default [
         email: 'bob@gmail.com',
         avatarUrl:'https://cdn.pixabay.com/photo/2020/06/04/12/55/emoji-5258611__340.png'
 
-    }
+    },
 
 ];
